@@ -15,9 +15,11 @@
     <ClInclude Include="Source\Potato\Application.h" />
     <ClInclude Include="Source\Potato\Core.h" />
     <ClInclude Include="Source\Potato\Entry.h" />
+    <ClInclude Include="Source\Potato\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Potato\Application.cpp" />
+    <ClCompile Include="Source\Potato\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -68,6 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PO_PLATFORM_WINDOWS;PO_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Potato\ThirdParty\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -1,0 +1,3 @@
+[submodule "Potato/ThirdParty/spdlog"]
+	path = Potato/ThirdParty/spdlog
+	url = https://github.com/gabime/spdlog
